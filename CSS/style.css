@@ -1,0 +1,301 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2017/05/05/09/50/pizza-2286447_1280.png");
+}
+
+nav {
+    background-color: rgba(0, 255, 47, 0.656);
+    width: auto;
+    margin: auto;
+    padding: 12px;
+    opacity: 0.90;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start; 
+    flex-direction: center;
+    align-items: center;
+    
+    
+}
+
+.onglets {
+    display: flex;
+    text-align: end;
+    margin-left: auto;
+    padding: 10px;
+   border-radius: 10px;
+   background:white;
+
+}
+
+.onglets a {
+    padding: 5px;
+    color: rgb(223, 113, 113);
+    font-weight: bolder;
+    letter-spacing: 4px;
+    border-radius: 10px;
+    font-size: x-large;
+    font-family: cursive;
+}
+
+img {
+    
+    float: left;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(223, 113, 113);
+    margin-top: 100px;
+    flex-direction: column;
+    opacity: 0.90;
+    border: 10px;
+    
+}
+
+.container p{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-family: cursive;
+}
+
+h1 {
+    text-align: center;
+    font-size:40px;;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.Menu {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    border: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+       
+    
+}
+
+.Menu-Adulte {
+           
+    padding: 5px;
+    margin-top: 20px;
+    border: 10px;
+    background-color:rgb(223, 113, 113) ;
+    height: auto;
+    width: 650px;
+    margin-left: 20px;
+    margin-right:20px;
+    opacity: 0.90; 
+    
+}
+
+.Menu-enfant {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 650px;
+    background-color:rgb(223, 113, 113) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.90;
+}
+
+.vegetarienne {
+    margin-top: 20px;
+    margin-left: 30px;
+    flex-direction: column;
+    display: flex;
+    
+}
+
+.mozzarella {
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.oriental {
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h5 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+h6 {
+    margin-top: 20px;
+    font-size: x-large;
+}
+
+.Menu-enfant img {
+    margin-top: 20px;
+} 
+
+
+#pizza0 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#pizza1 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#pizza2 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.pizza {
+    border: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+/*form {
+    border-radius: 6px;
+    background-color: rgb(223, 113, 113) ;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px;
+    text-align: center;
+    
+}*/
+
+.container1 form {
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	background-color: rgb(223, 113, 113) ;
+	margin-top: 20px;
+	margin-left: 480px;
+    margin-top: 30px;
+    opacity: 0.90;
+}
+
+label {
+	display: block;
+	margin: 20px 0;
+    margin-left: 25px;
+
+}
+
+input,
+textarea {
+	width: 90%;
+	padding: 10px;
+	box-sizing: border-box;
+    margin-left: 25px;
+    margin-right: auto;
+}
+button{
+    border-radius: 20px;
+    color: blue;
+    display: flex;
+    margin: auto;   
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    align-items: center;
+    background-color: rgb(223, 113, 113) ;
+    width: 90%;
+    margin: auto;
+    opacity: 0.90;
+    margin-top: 30px;
+    
+    
+}
+.choix {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: 10px;
+
+}
+.livraison {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.Emporter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#form1 form {
+    display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+    margin-top: 30px;
+    background-color: rgb(223, 113, 113) ;
+    width: 600px;
+
+    opacity: 0.90;
+
+
+}
+#form2 form {
+    display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+    margin-top: 30px;
+    background-color: rgb(223, 113, 113);
+    width: 600px;
+    opacity: 0.90;
+
+
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 255, 47, 0.656) ;
+    margin-top: 60px;
+    font-size: x-large;
+    opacity: 1;
+    margin-bottom: 20px;
+}
