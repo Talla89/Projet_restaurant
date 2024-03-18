@@ -12,10 +12,13 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li class="logo">
-                    <img src="image.img/logo1.png" width="100px" height="100px" alt="logo">
-                </li>
+            <div class="circle">
+                <div class="logo"></div>
+                <div class="text">
+                    <p>Pizza</p>
+                </div>
+            </div>
+            <ul id = 'test'>
                 <li class="onglets">
                     <a href="Home.html">Accueil</a>
                 </li>
@@ -29,78 +32,91 @@
                     <a href="contact.html">Contact</a>
                 </li>
             </ul>
-
-                          
-            
         </nav>
-
     </header>
 
     <main>
         <h1>Nos Menus</h1>
+        <div id="conteneur">
+            <ul class="diaporama-couleurs" id="diaporama-couleurs">
+              <li class="couleur"><img src="image.img/mozzarella.jpeg.webp" alt=""></li>
+              <li class="couleur"><img src="image.img/mozzarella.jpeg.webp" alt=""></li>
+              <li class="couleur"><img src="image.img/pizza-3010062_1280.jpg" alt=""></li>
+              <li class="couleur"><img src="image.img/vegetarienne.jpeg.jpg" alt=""></li>
+            </ul>
+  
+        </div>
         <div class="Menu">
 
-            <div class="Menu-enfant">
-                <h5>Menu enfant</h5>
-                <img src="image.img/menu enfant pizza.jpeg.jpeg" width="230px" height="230px" alt="Menu-enfant">
-                <div>
-                    
-                    <ul>
-                        <li>Pizza Junior</li>
-                        <li>Boisson aux choix</li>
-                        <li>Dessert: compote ou kinder</li>
-                    </ul>
+            <div>
+                <button class="button">Menu-enfant</button>
+                <div class="Menu-enfant">
+                    <h5>Menu enfant</h5>
+                    <img src="image.img/menu enfant pizza.jpeg.jpg" width="230px" height="230px" alt="Menu-enfant">
+                    <div>
+                        
+                        <ul>
+                            <li>Pizza Junior</li>
+                            <li>Boisson aux choix</li>
+                            <li>Dessert: compote ou kinder</li>
+                        </ul>
+                    </div>
+        
                 </div>
-    
+
             </div>
     
     
-            <div class="Menu-Adulte">
-                <h5>Menu Adulte</h5>
-                
-                <div class="pizza">
-                    <div class="mozzarella">
-                        <h6>Mozzarella</h6>
-                        
-                        
-                        <div id="pizza0">
-                            <img src="image.img/mozzarella.jpeg.webp" width="150px" height="150px" alt="Mozzarella">   
-                            <ul>
-                                <li>Pizza Mozzarella</li>
-                                <li>Boisson aux choix</li>
-                                <li>Dessert: tiramisu ou fondant au chocolat</li>
-                            </ul>
+            <div >
+                <button class="button">Menu-adulte</button>
+                <div class="Menu-Adulte">
+                    <h5>Menu Adulte</h5>
+                    
+                    <div class="pizza">
+                        <div class="mozzarella">
+                            <h6>Mozzarella</h6>
+                            
+                            
+                            <div id="pizza0">
+                                <img src="image.img/mozzarella.jpeg.webp" width="150px" height="150px" alt="Mozzarella">   
+                                <ul>
+                                    <li>Pizza Mozzarella</li>
+                                    <li>Boisson aux choix</li>
+                                    <li>Dessert: tiramisu ou fondant au chocolat</li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-        
-                    <div class="vegetarienne">
-                        <h6>Vegetarienne</h6>
-                        
-                       
-                        <div id="pizza1">
-                            <img src="image.img/vegetarienne.jpeg.jpg" width="150px" height="150px" alt="vegetarienne">   
-                            <ul>
-                                <li>Pizza vegetarienne</li>
-                                <li>Boisson aux choix</li>
-                                <li>Dessert: tiramisu ou fondant au chocolat</li>
-                            </ul>
+            
+                        <div class="vegetarienne">
+                            <h6>Vegetarienne</h6>
+                            
+                           
+                            <div id="pizza1">
+                                <img src="image.img/vegetarienne.jpeg.jpg" width="150px" height="150px" alt="vegetarienne">   
+                                <ul>
+                                    <li>Pizza vegetarienne</li>
+                                    <li>Boisson aux choix</li>
+                                    <li>Dessert: tiramisu ou fondant au chocolat</li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="oriental">
-                        <h6>Oriental</h6>
-                        
-                       
-                        <div id="pizza2">
-                            <img src="image.img/pizza-3010062_1280.jpg" width="150px" height="150px" alt="oriental">   
-                            <ul>
-                                <li>Pizza oriental</li>
-                                <li>Boisson aux choix</li>
-                                <li>Dessert: tiramisu ou fondant au chocolat</li>
-                            </ul>
+    
+                        <div class="oriental">
+                            <h6>Oriental</h6>
+                            
+                           
+                            <div id="pizza2">
+                                <img src="image.img/pizza-3010062_1280.jpg" width="150px" height="150px" alt="oriental">   
+                                <ul>
+                                    <li>Pizza oriental</li>
+                                    <li>Boisson aux choix</li>
+                                    <li>Dessert: tiramisu ou fondant au chocolat</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </main>
@@ -115,7 +131,7 @@
             Courriel: pizzaaldente@gmail.com
             </p>
         </div>
-        <div>
+        <div id="localisation">
             
                 <a href="https://www.google.com/search?q=19+rue+de+paris+93000+bobigny&rlz=1C1VDKB_frFR1057FR1058&oq=
                             19+rue+de+paris&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHC
@@ -123,7 +139,8 @@
     
         </div>
     </footer>
-    
+    <script src="index.js"></script>
+</body>
 </body>
 
 </html>

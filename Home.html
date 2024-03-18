@@ -6,17 +6,18 @@
     <meta name="Description" content="Un restaurant pour la vente de pizzas">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="icon" href="https://media.istockphoto.com/id/1764857480/fr/photo/ic%C3%B4ne-de-pizza-r%C3%A9aliste-3d-ic%C3%B4ne-3d-isol%C3%A9e-sur-blanc.jpg?s=2048x2048&w=is&k=20&c=5DJ7wdDvkwiQUIkhgeH6DH-Zk9ykIG8fvyqwktfk2X8=" />
-
     <title>Pizza al Dente</title>
 </head>
 <body>
     <header>
-        
         <nav>
-            <ul>
-                <li class="logo">
-                    <img src="image.img/logo1.png" width="100px" height="100px" alt="logo">
-                </li>
+            <div class="circle">
+                <div class="logo"></div>
+                <div class="text">
+                    <p>Pizza</p>
+                </div>
+            </div>
+            <ul id = 'test'>
                 <li class="onglets">
                     <a href="Home.html">Accueil</a>
                 </li>
@@ -31,15 +32,32 @@
                 </li>
             </ul>
         </nav>
-
     </header>
-
     <main>
         <div class="container">
             <h1>Bienvenue sur le site de Pizza Al Dente</h1>
-            <p>"Pizzeria Al Dente" est un lieu où l'authenticité de la cuisine italienne rencontre 
-                la convivialité d'un repas partagé entre amis et en famille. Notre pizzeria se distingue 
-                par la fraîcheur de ses ingrédients et l'expertise de sa préparation, offrant 
+            <div class="slider">
+                  <button class="fleche-defilement" id="fleche-defilement-prev">
+                    &#8249;
+                  </button>
+                  <button class="fleche-defilement" id="fleche-defilement-next">
+                    &#8250;
+                  </button>
+                  <ul class="diaporama-couleurs" id="diaporama-couleurs">
+                    <li class="couleur"><img src="image.img/menu enfant pizza.jpeg.jpg" alt=""></li>
+                    <li class="couleur"><img src="image.img/mozzarella.jpeg.webp" alt=""></li>
+                    <li class="couleur"><img src="image.img/pizza-3010062_1280.jpg" alt=""></li>
+                    <li class="couleur"><img src="image.img/pizza1.jpg" alt=""></li>
+                    <li class="couleur"><img src="image.img/pizza2.jpg" alt=""></li>
+                    <li class="couleur"><img src="image.img/pizza2.jpg" alt=""></li>
+                    <li class="couleur"><img src="image.img/pizza4.jpg" alt=""></li>
+                    <li class="couleur"><img src="image.img/vegetarienne.jpeg.jpg" alt=""></li>
+                  </ul>
+        
+            </div>
+            <p>"Pizzeria Al Dente" est un lieu où l'authenticité de la cuisine italienne rencontre
+                la convivialité d'un repas partagé entre amis et en famille. Notre pizzeria se distingue
+                par la fraîcheur de ses ingrédients et l'expertise de sa préparation, offrant
                 ainsi une expérience culinaire inoubliable à chaque visite.</p>
         </div>
     </main>
@@ -53,14 +71,12 @@
             Courriel: pizzaaldente@gmail.com
             </p>
         </div>
-        <div>
-            
+        <div id="localisation">
                 <a href="https://www.google.com/search?q=19+rue+de+paris+93000+bobigny&rlz=1C1VDKB_frFR1057FR1058&oq=
                             19+rue+de+paris&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHC
-                            AQQABiABDIHCAUQABiABDIHCAYQABiABDIGCAcQRRg90gEIOTc1OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8" target="_blank">localisation</a> 
-    
+                            AQQABiABDIHCAUQABiABDIHCAYQABiABDIGCAcQRRg90gEIOTc1OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8" target="_blank">localisation</a>
         </div>
     </footer>
-    
+    <script src="index.js"></script>
 </body>
 </html>

@@ -12,10 +12,13 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li class="logo">
-                    <img src="image.img/logo1.png" width="100px" height="100px" alt="logo">
-                </li>
+            <div class="circle">
+                <div class="logo"></div>
+                <div class="text">
+                    <p>Pizza</p>
+                </div>
+            </div>
+            <ul id = 'test'>
                 <li class="onglets">
                     <a href="Home.html">Accueil</a>
                 </li>
@@ -30,7 +33,6 @@
                 </li>
             </ul>
         </nav>
-
     </header>
 
     <main>
@@ -38,17 +40,14 @@
             <h1>Décrouvrez nos services</h1>
             <div class="choix">
 
-                <div>
-                    <label for="livraison"><a href="livraison.html">Livraison</a></label>
+                <div id="btn">
+                    <BUtton><a href="livraison.html">Livraison</a></BUtton>
+                    <BUtton><a href="emporter.html">A Emporter</a></BUtton>
                     
                     
                 </div>
 
-                <div>
-                    <label for="Emporter"><a href="emporter.html">A emporter</a></label>
-                    
-                    
-                </div>
+                
 
             </div>
             
@@ -67,7 +66,7 @@
             Courriel: pizzaaldente@gmail.com
             </p>
         </div>
-        <div>
+        <div id="localisation">
             
                 <a href="https://www.google.com/search?q=19+rue+de+paris+93000+bobigny&rlz=1C1VDKB_frFR1057FR1058&oq=
                             19+rue+de+paris&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHC
@@ -76,6 +75,7 @@
         </div>
     </footer>
     
-    
+    <script src="index.js"></script>
+</body> 
 </body>
 </html>

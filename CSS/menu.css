@@ -1,0 +1,32 @@
+#conteneur ul,li { margin:0 ; padding:0 }
+div#conteneur {
+	width:660px; /* Soit 220px * 3 images */
+	height:220px;
+	overflow:hidden;
+	margin: 2em auto;
+	border: 1px solid black;
+	box-shadow: 0px 0px 25px 10px gray;
+}
+#conteneur ul{
+	display: table;
+	width:1540px; /* Soit 220px * 7 images */
+	animation: slide-image 20s ease 0s infinite alternate;
+}
+#conteneur ul li{
+	display: table-cell;
+	width:220px;
+	height:220px;
+	text-align:center;
+	vertical-align:middle;
+}
+@keyframes slide-image{
+	from,20%  {margin-left:   0px;}
+	20%,40%   {margin-left:-220px;}
+	40%,60%   {margin-left:-440px;}
+	60%,80%   {margin-left:-660px;}
+	80%,to    {margin-left:-880px;}
+}
+
+
+
+

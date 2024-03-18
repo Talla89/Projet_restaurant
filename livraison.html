@@ -11,12 +11,14 @@
 </head>
 <body>
     <header>
-        
         <nav>
-            <ul>
-                <li class="logo">
-                    <img src="image.img/logo1.png" width="100px" height="100px" alt="logo">
-                </li>
+            <div class="circle">
+                <div class="logo"></div>
+                <div class="text">
+                    <p>Pizza</p>
+                </div>
+            </div>
+            <ul id = 'test'>
                 <li class="onglets">
                     <a href="Home.html">Accueil</a>
                 </li>
@@ -31,7 +33,6 @@
                 </li>
             </ul>
         </nav>
-
     </header>
 
     <main>
@@ -44,23 +45,23 @@
                     height="100px" alt="livraison">
                     
                     <div>
-                        <label for="nom">Votre nom</label>
-                        <input type="text" id="nom">
+                        <label for="Nom">Nom:</label>
+                        <input type="text" id="Nom" size="60" name="Nom" />
                     </div>
-        
+
                     <div>
-                        <label for="Prenom">Votre Prénom</label>
-                        <input type="text" id="Prenom">
+                        <label for="firstName">Prénom:</label>
+                        <input type="text" id="firstName" size="60" name="firstName" />
                     </div>
-        
+              
                     <div>
-                        <label for="phone">Votre téléphone</label>
-                        <input type="tel" id="phone" pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}" placeholder="01 12 14 16 18 ">
-                    </div>
-        
+                        <label for="phone">Téléphone: </label>
+                        <input type="phone" id="phone" size="60" pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}" placeholder="01 12 14 16 18 ">
+                    </div>  
+
                     <div>
-                        <label for="email">Votre Email</label>
-                        <input type="email" id="email" placeholder="votre email">
+                        <label for="E-mail" l>Adresse électronique:</label>
+                        <input type="text" id="E-mail" size="60" name="Email" />
                     </div>
         
                     <div>
@@ -75,7 +76,7 @@
                         
                     </div>
         
-                    <div>
+                    <div class="soumet">
                         <input type="submit" value="Soumettre">
                     </div>
                 </form>
@@ -91,7 +92,7 @@
             Courriel: pizzaaldente@gmail.com
             </p>
         </div>
-        <div>
+        <div id="localisation">
             
                 <a href="https://www.google.com/search?q=19+rue+de+paris+93000+bobigny&rlz=1C1VDKB_frFR1057FR1058&oq=
                             19+rue+de+paris&gs_lcrp=EgZjaHJvbWUqBwgBEAAYgAQyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHC
